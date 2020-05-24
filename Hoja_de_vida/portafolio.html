@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <link rel="stylesheet" href="estilos2.css">
+    <script src="jquery.js"></script>
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <ul id="galeria">
+      <li class="galeria__item"><img src="img2/img1.png" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img2.jpg" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img3.png" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img4.jpg" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img5.PNG" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img6.jpg" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img7.jpg" class="galeria__img"></li>
+      <li class="galeria__item"><img src="img2/img8.jpg" class="galeria__img"></li>
+    </ul>
+    <script src="modal.js"></script>
+<br>
+<br>
+<form class="box">
+    <h2>CONTACTO</h2>
+    <label for="">Nombre:</label>
+    <input type="text" id="uno" name="nombre" required pattern="[A-Za-z]+">
+    <label for="">Interesado en cual servicios?</label> <br>
+    <select id="dos">
+      <optgroup>
+        <option value="1">Asistencia</option>
+        <option value="2">Accesoria</option>
+      </optgroup>
+    </select> <br>
+    <label for="">Correo:</label>
+    <input id="tres" type="text" name="correo" required> <br>
+    <label for="">Mensaje:</label>
+    <textarea name="mensaje" rows="8" cols="60"></textarea> <br>
+    <input id="btn" type="submit" name="" value="Enviar">
+    <a href="index.html">Regresar</a>
+</form>
+  </body>
+</html>
